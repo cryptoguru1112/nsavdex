@@ -131,7 +131,7 @@ const Hero = () => {
         flexDirection={['row', null, null, 'row']}
         alignItems={['flex-end', null, null, 'center']}        
         justifyContent="center"
-        mt={[account ? '200px' : '30px', null, 0]}
+        mt={[account ? '300px' : '30px', null, '160px']}
         id="homepage-hero"
       >
         <Flex flex="1" flexDirection="column">
@@ -144,7 +144,7 @@ const Hero = () => {
           <Text color="#fff" maxWidth="1200px" marginX="auto" textAlign="center" fontSize='24px'>
             {t('Swap, earn, stack, lend, borrow, leverage, all on one decentrailzed,')}
           </Text>
-          <Text color="#fff" maxWidth="1200px" marginX="auto" textAlign="center" fontSize='24px'>
+          <Text color="#fff" maxWidth="1200px" marginX="auto" textAlign="center" fontSize='24px' mb="32px">
             {t('community driven platfrom')}
           </Text>
         </Flex>
@@ -156,8 +156,8 @@ const Hero = () => {
              <Text fontSize='18px'>{t('Trade any crypto asset pn the first fast, cross-chain, low, fee, secure, and fully decentralized derivatives exchange protocal')}</Text>
          </StyledCard>
          <StyledCard style={{ color: "#000", background: "#fff"}}>
-             <Heading scale="xl" fontSize='24px'>{t('1 Second Finality')}</Heading>
-             <Text fontSize='18px'>{t('Platform is a high performance blockchain with 1 second finality, execution environment and based off Tendermint')}</Text>
+             <Heading scale="xl" fontSize='24px' color='#000'>{t('1 Second Finality')}</Heading>
+             <Text fontSize='18px' color='#000'>{t('Platform is a high performance blockchain with 1 second finality, execution environment and based off Tendermint')}</Text>
          </StyledCard>
          <StyledCard>
              <Heading scale="xl" fontSize='24px'>{t('50% Off Transaction fee')}</Heading>
