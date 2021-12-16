@@ -80,15 +80,15 @@ const App: React.FC = () => {
             <Route path="/pools">
               <Farms tokenMode/>
             </Route>
-            {/* <Route path="/lottery">
+            <Route path="/lottery">
               <Lottery />
-            </Route> */}
-            {/* <Route exact path="/prediction">
+            </Route>
+            <Route exact path="/prediction">
               <Predictions />
-            </Route> */}
-            {/* <Route path="/prediction/leaderboard">
+            </Route>
+            <Route path="/prediction/leaderboard">
               <PredictionsLeaderboard />
-            </Route> */}
+            </Route>
             <Route path="/referral">
               <Referral />
             </Route>

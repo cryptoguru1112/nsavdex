@@ -45,7 +45,7 @@ export const mainnetTokens = {
     18,
     'CAKE',
     'PancakeSwap Token',
-    'https://pancakeswap.finance/',
+    'https://swap.nsavdex.io/',
   ),
   tlos: new Token(MAINNET, '0xb6C53431608E626AC81a9776ac3e999c5556717c', 18, 'TLOS', 'Telos', 'https://www.telos.net/'),
   nft: new Token(MAINNET, '0x1fC9004eC7E5722891f5f38baE7678efCB11d34D', 6, 'NFT', 'APENFT', 'https://apenft.org'),
@@ -217,7 +217,7 @@ export const mainnetTokens = {
     18,
     'SYRUP',
     'SyrupBar Token',
-    'https://pancakeswap.finance/',
+    'https://swap.nsavdex.io/',
   ),
   pha: new Token(
     MAINNET,
@@ -1669,7 +1669,7 @@ export const testnetTokens = {
     18,
     'CAKE',
     'PancakeSwap Token',
-    'https://pancakeswap.finance/',
+    'https://swap.nsavdex.io/',
   ),
   busd: new Token(
     TESTNET,
@@ -1685,7 +1685,7 @@ export const testnetTokens = {
     18,
     'SYRUP',
     'SyrupBar Token',
-    'https://pancakeswap.finance/',
+    'https://swap.nsavdex.io/',
   ),
   bake: new Token(
     TESTNET,
