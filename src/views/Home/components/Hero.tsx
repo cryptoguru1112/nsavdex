@@ -41,6 +41,8 @@ const BgWrapper = styled.div`
   height: 100%;
   bottom: 0px;
   left: 0px;
+  background-image: url("/images/home/lunar-bunny/underimage.jpg");
+  background-size: cover;
 `
 
 const InnerWrapper = styled.div`
@@ -121,11 +123,7 @@ const Hero = () => {
 
   return (
     <>
-      <BgWrapper>
-        <InnerWrapper>
-          <img src={`${imagePath}underimage.jpg`} alt={t('Lunar bunny')} width="100%"/>
-        </InnerWrapper>
-      </BgWrapper>
+      <BgWrapper />
       <Grid
         position="relative"
         flexDirection={['row', null, null, 'row']}
