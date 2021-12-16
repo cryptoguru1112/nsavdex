@@ -46,7 +46,6 @@ const BgWrapper = styled.div`
 const InnerWrapper = styled.div`
   position: absolute;
   width: 100%;
-  bottom: -3px;
 `
 
 const BunnyWrapper = styled.div`
@@ -124,7 +123,7 @@ const Hero = () => {
     <>
       <BgWrapper>
         <InnerWrapper>
-          <img src={`${imagePath}underimage.png`} alt={t('Lunar bunny')} width="100%"/>
+          <img src={`${imagePath}underimage.jpg`} alt={t('Lunar bunny')} width="100%"/>
         </InnerWrapper>
       </BgWrapper>
       <Grid
