@@ -27,75 +27,75 @@ export const getCustomMeta = (path: string, t: ContextApi['t']): PageMeta => {
   switch (basePath) {
     case '/':
       return {
-        title: `${t('Home')} | ${t('NSBC')}`,
+        title: `${t('Home')} | ${t('Nsavdex')}`,
       }
     case '/swap':
       return {
-        title: `${t('Exchange')} | ${t('NSBC')}`,
+        title: `${t('Exchange')} | ${t('Nsavdex')}`,
       }
     case '/add':
       return {
-        title: `${t('Add Liquidity')} | ${t('NSBC')}`,
+        title: `${t('Add Liquidity')} | ${t('Nsavdex')}`,
       }
     case '/remove':
       return {
-        title: `${t('Remove Liquidity')} | ${t('NSBC')}`,
+        title: `${t('Remove Liquidity')} | ${t('Nsavdex')}`,
       }
     case '/liquidity':
       return {
-        title: `${t('Liquidity')} | ${t('NSBC')}`,
+        title: `${t('Liquidity')} | ${t('Nsavdex')}`,
       }
     case '/find':
       return {
-        title: `${t('Import Pool')} | ${t('NSBC')}`,
+        title: `${t('Import Pool')} | ${t('Nsavdex')}`,
       }
     case '/competition':
       return {
-        title: `${t('Trading Battle')} | ${t('NSBC')}`,
+        title: `${t('Trading Battle')} | ${t('Nsavdex')}`,
       }
     case '/prediction':
       return {
-        title: `${t('Prediction')} | ${t('NSBC')}`,
+        title: `${t('Prediction')} | ${t('Nsavdex')}`,
       }
     case '/prediction/leaderboard':
       return {
-        title: `${t('Leaderboard')} | ${t('NSBC')}`,
+        title: `${t('Leaderboard')} | ${t('Nsavdex')}`,
       }
     case '/farms':
       return {
-        title: `${t('Farms')} | ${t('NSBC')}`,
+        title: `${t('Farms')} | ${t('Nsavdex')}`,
       }
     case '/farms/auction':
       return {
-        title: `${t('Farm Auctions')} | ${t('NSBC')}`,
+        title: `${t('Farm Auctions')} | ${t('Nsavdex')}`,
       }
     case '/pools':
       return {
-        title: `${t('Pools')} | ${t('NSBC')}`,
+        title: `${t('Pools')} | ${t('Nsavdex')}`,
       }
     case '/lottery':
       return {
-        title: `${t('Lottery')} | ${t('NSBC')}`,
+        title: `${t('Lottery')} | ${t('Nsavdex')}`,
       }
     case '/ifo':
       return {
-        title: `${t('Initial Farm Offering')} | ${t('NSBC')}`,
+        title: `${t('Initial Farm Offering')} | ${t('Nsavdex')}`,
       }
     case '/teams':
       return {
-        title: `${t('Leaderboard')} | ${t('NSBC')}`,
+        title: `${t('Leaderboard')} | ${t('Nsavdex')}`,
       }
     case '/voting':
       return {
-        title: `${t('Voting')} | ${t('NSBC')}`,
+        title: `${t('Voting')} | ${t('Nsavdex')}`,
       }
     case '/voting/proposal':
       return {
-        title: `${t('Proposals')} | ${t('NSBC')}`,
+        title: `${t('Proposals')} | ${t('Nsavdex')}`,
       }
     case '/voting/proposal/create':
       return {
-        title: `${t('Make a Proposal')} | ${t('NSBC')}`,
+        title: `${t('Make a Proposal')} | ${t('Nsavdex')}`,
       }
     case '/info':
       return {
@@ -114,7 +114,7 @@ export const getCustomMeta = (path: string, t: ContextApi['t']): PageMeta => {
       }
     case '/nfts/profile':
       return {
-        title: `${t('Your Profile')} | ${t('NSBC')}`,
+        title: `${t('Your Profile')} | ${t('Nsavdex')}`,
       }
     default:
       return null

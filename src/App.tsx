@@ -30,8 +30,10 @@ import {
 } from './views/AddLiquidity/redirects'
 import RedirectOldRemoveLiquidityPathStructure from './views/RemoveLiquidity/redirects'
 import { RedirectPathToSwapOnly, RedirectToSwap } from './views/Swap/redirects'
-import Privacy from './views/Privacy'
 
+import Privacy from './views/Privacy'
+import TermCondition from './views/TermCondition'
+import Disclaimer from './views/Disclaimer'
 // Route-based code splitting
 // Only pool is included in the main bundle because of it's the most visited page
 const Home = lazy(() => import('./views/Home'))
@@ -96,6 +98,12 @@ const App: React.FC = () => {
 
             <Route path="/privacy">
               <Privacy />
+            </Route>
+            <Route path="/disclaimer">
+              <Disclaimer />
+            </Route>
+            <Route path="/termcondition">
+              <TermCondition />
             </Route>
 
             {/* Using this format because these components use routes injected props. We need to rework them with hooks */}

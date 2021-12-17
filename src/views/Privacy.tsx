@@ -26,7 +26,7 @@ const ControlContainer = styled.div`
     flex-direction: row;
     flex-wrap: wrap;
     padding: 16px 32px;
-    margin-bottom: 0;
+    margin-bottom: 32px;
     width: 70%;
   }
 `
@@ -44,7 +44,7 @@ const Privacy: React.FC = () => {
                     <Text mb="12px">
                         NSAVDEX – Net Savings Link Inc. (the “Company,” “NSAV,” “NSAVDEX,” “we,” “us,” or “our”) respects and protects the privacy of its users. This privacy policy (this “Privacy Policy”) explains how we collect, use, and share information gathered through our websites (www.nsavholdinginc.com, www.NSAVDEX.io (the “Platform”), web applications, mobile applications, all associated sites and interfaces linked thereto by NSAVDEX, NSAVDEX.io or its affiliates, any other site that links to this Privacy Policy, downloadable software applications, and use of any NSAVDEX.io application programming interfaces (“APIs”) or third party application permissibly relying on such API (collectively, including related services, the “Services”). It also describes your rights and choices with respect to your information, and how you can contact us if you have any questions or concerns.
                     </Text>
-                    <Heading scale='md'>
+                    <Heading scale='xl' my="24px">
                         1. Personal Information We Collect
                     </Heading>
                     <Text>
@@ -82,7 +82,7 @@ const Privacy: React.FC = () => {
 
                         Social media information. If you post on NSAV /  NSAVDEX’s social media pages or post about NSAVDEX on other publicly available services, we may receive social media information about you, such as your profile information and the time, date and content of your posts.
                         </Text>
-                        <Heading>2. How We Use Personal Information</Heading>
+                        <Heading scale='xl' my="24px">2. How We Use Personal Information</Heading>
 
                         <Text>
                         A. How We Use Personal information
@@ -127,7 +127,12 @@ const Privacy: React.FC = () => {
 
                         You can find more information about your rights and choices, and how to opt out of the use of certain Cookies in the section Your Rights and Choices below.
 
-                        3. How We Share Your Personal Information
+                        </Text>
+                        <Heading scale='xl' my="24px">3. How We Share Your Personal Information</Heading>
+
+                        <Text>
+
+                        
                         Except as described in this Policy, we will not disclose your Personal Information collected on the Services to third parties without your consent. We may disclose information to third parties if you consent to us doing so, as well as in the following circumstances:
 
                         Your social handle and profile information may be publicly available through the use of the Services.
@@ -139,14 +144,25 @@ const Privacy: React.FC = () => {
                         If required to do so by law or in the good faith belief that such action is appropriate: (a) under applicable law, including laws outside your country of residence; (b) to comply with legal process; (c) to respond to requests from public and government authorities, including public and government authorities outside your country of residence; (d) to enforce our Terms of Use; (e) to protect our operations or those of any of our affiliates; (f) to protect our rights, privacy, safety or property, and/or that of our affiliates, you or others; and (g) to allow us to pursue available remedies or limit the damages that we may sustain.
 
                         We may use and disclose aggregated or otherwise de-identified information for any purpose, unless we are prohibited from doing so under applicable law.
+                        </Text>
+                        <Heading scale='xl' my="24px">4. Third Party Services</Heading>
 
-                        4. Third Party Services
+                        <Text>
+
                         This Privacy Policy does not address, and we are not responsible for, the privacy, information or other practices of any third parties, or any third party operating any site or service to which the Services link. The inclusion of a link on the Services does not imply endorsement of the linked site or service by us or by our affiliates. We encourage you to learn about third-parties’ privacy and security policies before providing them with information.
 
-                        5. Security
+                        </Text>
+                        <Heading scale='xl' my="24px">5. Security</Heading>
+
+                        <Text>
+
                         We maintain administrative, technical and physical safeguards designed to protect the personal information we maintain against unauthorized access or disclosure. No system can be completely secure. Therefore, although we take steps to secure your information, we cannot guarantee that your information, searches, or other communication will always remain secure. You are responsible for all activity on the NSAVDEX.io (BSC) protocol relating to any of your Ethereum network addresses and/or cryptocurrency wallets.
 
-                        6. Your Rights and Choices
+                        </Text>
+                        <Heading scale='xl' my="24px">6. Your Rights and Choices</Heading>
+
+                        <Text>
+
                         You have several rights and choices with regard to our use of your Personal Information. You may, of course, decline to share certain Personal Information with us, in which case we may not be able to provide to you some of the features and functionality of the Services. If you wish to access, amend, or delete any other Personal Information we hold about you, you may contact us using the contact details at the end of this Policy. Please note that while any changes you make will be reflected in active user databases instantly or within a reasonable period of time, we may retain all information you submit for backups, archiving, prevention of fraud and abuse, analytics, satisfaction of legal obligations, or where we otherwise reasonably believe that we have a legitimate reason to do so, as permitted under applicable data protection law. From time to time, we send marketing email messages to our users. If you no longer want to receive such emails from us on a going forward basis, you may opt-out via the “unsubscribe” link provided in each such email or by contacting us using the contact details at the end of this Policy.
 
                         A. Your European Privacy Rights
@@ -210,17 +226,26 @@ const Privacy: React.FC = () => {
                         Identity Verification The CCPA requires us to verify the identity of the individual submitting a request to access or delete personal information before providing a substantive response to the request. We will ask you to verify your identity when you submit a request.
 
                         Authorized Agents California residents can empower an “authorized agent” to submit requests on their behalf. We will require the authorized agent to have a written authorization confirming that authority.
+                        </Text>
+                        <Heading scale='xl' my="24px">7. Use of Services by Minors</Heading>
 
-                        7. Use of Services by Minors
+                        <Text>
                         To the extent prohibited by applicable law, we do not allow use of our Services and Sites by anyone younger than 18 years old. If you learn that anyone younger than 18 has unlawfully provided us with personal data, please contact us at Support@NSAVDEX.io  and we will take steps to delete such information, close any such accounts, and, to the extent possible, prevent the user from continuing to use our Services.
 
-                        8. Retention
-                        We take measures to delete your Personal Information or keep it in a form that does not permit identifying you when this information is no longer necessary for the purposes for which we process it, unless we are required or permitted by law to keep this information for a longer period. When determining the specific retention period, we take into account various criteria, such as the type of Services provided to you, the nature and length of our relationship with you, and mandatory retention periods provided by law and the relevant statute of limitations.
+                        </Text>
+                        <Heading scale='xl' my="24px">8. Retention</Heading>
 
-                        9. Updates to this Privacy Policy
+                        <Text>
+                        We take measures to delete your Personal Information or keep it in a form that does not permit identifying you when this information is no longer necessary for the purposes for which we process it, unless we are required or permitted by law to keep this information for a longer period. When determining the specific retention period, we take into account various criteria, such as the type of Services provided to you, the nature and length of our relationship with you, and mandatory retention periods provided by law and the relevant statute of limitations.
+                        </Text>
+                        
+                        <Heading scale='xl' my="24px">9. Updates to this Privacy Policy</Heading>
+
+                        <Text>
+                        
                         We may make changes to this Privacy Policy. The “Last updated” date at the top of this page indicates when this Privacy Policy became effective. If we make material changes, we may notify you through the Services or by sending you an email or other communication. We encourage you to read this Privacy Policy periodically to stay up-to-date about our privacy practices. Your use of the Services following these changes means that you accept the revised Privacy Policy.
                         </Text>
-                        <Heading>10. Contact Us</Heading>
+                        <Heading scale='xl' my="24px">10. Contact Us</Heading>
 
                         <Text>
                             

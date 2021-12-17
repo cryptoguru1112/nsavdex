@@ -36,7 +36,7 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
       },
       {
         label: t('Terms & Conditions'),
-        href: '/terms-conditions',
+        href: '/termcondition',
       },
       {
         label: t('Disclaimer'),
