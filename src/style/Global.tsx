@@ -12,7 +12,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Kanit', sans-serif;
   }
   body {
-    background-color: #141d3c};
+    background-color: #141d3c;
 
     img {
       height: auto;
