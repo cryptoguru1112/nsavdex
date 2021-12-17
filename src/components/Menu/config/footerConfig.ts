@@ -19,7 +19,7 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
       },
       {
         label: t('NSBC token'),
-        href: '/',
+        href: 'https://bscscan.com/address/0x4837eB79E05C3aC845C010060C488992d1f1AcE0',
       },
     ],
   },
@@ -36,15 +36,15 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
       },
       {
         label: t('Terms & Conditions'),
-        href: '/',
+        href: '/terms-conditions',
       },
       {
         label: t('Disclaimer'),
-        href: '/',
+        href: '/disclaimer',
       },
       {
         label: t('Privacy'),
-        href: '/',
+        href: '/privacy',
       },
     ],
   },
@@ -53,7 +53,7 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     items: [
       {
         label: 'Github',
-        href: '/',
+        href: 'https://github.com/BlockChainSuperDev',
       },
       {
         label: t('Audits'),
