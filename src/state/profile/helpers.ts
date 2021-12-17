@@ -92,9 +92,9 @@ export const getProfile = async (address: string): Promise<GetProfileResponse> =
         `profile_${address}`,
         {
           username,
-          avatar: `https://swap.nsavdex.io/images/nfts/${nft?.images.sm}`,
+          avatar: `https://nsavdex.io/images/nfts/${nft?.images.sm}`,
         },
-        { domain: 'swap.nsavdex.io', secure: true, expires: 30 },
+        { domain: 'nsavdex.io', secure: true, expires: 30 },
       )
     }
 

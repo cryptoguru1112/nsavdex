@@ -325,7 +325,7 @@ const HowToPlay: React.FC = () => {
                 {t(
                   'An average total of 35,000 NSBC from the treasury is added to lottery rounds over the course of a week. This NSBC is of course also included in rollovers! Read more in our guide to ',
                 )}
-                <InlineLink href="https://docs.swap.nsavdex.io/tokenomics/NSBC/NSBC-tokenomics">
+                <InlineLink href="https://docs.nsavdex.io/tokenomics/NSBC/NSBC-tokenomics">
                   {t('NSBC Tokenomics')}
                 </InlineLink>
               </Text>

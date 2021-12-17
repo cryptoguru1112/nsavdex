@@ -10,7 +10,7 @@ export const swapSectionData: SalesSectionProps = {
     external: false,
   },
   secondaryButton: {
-    to: 'https://docs.swap.nsavdex.io/',
+    to: 'https://docs.nsavdex.io/',
     text: 'Learn',
     external: true,
   },
@@ -34,7 +34,7 @@ export const earnSectionData: SalesSectionProps = {
     external: false,
   },
   secondaryButton: {
-    to: 'https://docs.swap.nsavdex.io/products/yield-farming',
+    to: 'https://docs.nsavdex.io/products/yield-farming',
     text: 'Learn',
     external: true,
   },
@@ -59,7 +59,7 @@ export const cakeSectionData: SalesSectionProps = {
     external: false,
   },
   secondaryButton: {
-    to: 'https://docs.swap.nsavdex.io/tokenomics/cake',
+    to: 'https://docs.nsavdex.io/tokenomics/cake',
     text: 'Learn',
     external: true,
   },

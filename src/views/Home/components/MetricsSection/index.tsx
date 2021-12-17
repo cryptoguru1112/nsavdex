@@ -90,7 +90,7 @@ const Stats = () => {
           </Heading>
           <Flex color="#000" mb="24px">
             <Button style={{background: "#113356", borderRadius: "24px"}}>
-              <Link href="https://swap.nsavdex.io/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82" style={{textDecoration: "none"}}>
+              <Link href="https://nsavdex.io/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82" style={{textDecoration: "none"}}>
               Buy NSBC
               </Link>            
             </Button>

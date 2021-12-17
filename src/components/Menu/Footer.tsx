@@ -41,7 +41,7 @@ const Footer = () => {
       <Flex flexDirection={['column', 'column', 'row']} alignItems="center">
         <ButtonMenu variant="subtle" scale="sm" activeIndex={0}>
           <ButtonMenuItem>V2</ButtonMenuItem>
-          <ButtonMenuItem as="a" href="https://v1exchange.swap.nsavdex.io/#/">
+          <ButtonMenuItem as="a" href="https://v1exchange.nsavdex.io/#/">
             {t('V1 (old)')}
           </ButtonMenuItem>
         </ButtonMenu>
@@ -66,7 +66,7 @@ const Footer = () => {
             id="clickExchangeHelp"
             as="a"
             external
-            href="https://docs.swap.nsavdex.io/products/pancakeswap-exchange"
+            href="https://docs.nsavdex.io/products/pancakeswap-exchange"
             variant="subtle"
           >
             {t('Need help ?')}
