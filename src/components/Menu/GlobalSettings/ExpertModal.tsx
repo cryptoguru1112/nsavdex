@@ -59,7 +59,7 @@ const ExpertModal: React.FC<ExpertModalProps> = ({ setShowConfirmExpertModal, se
         {t('Turn On Expert Mode')}
       </Button>
       <Button
-        variant="secondary"
+        variant="primary"
         onClick={() => {
           setShowConfirmExpertModal(false)
         }}
