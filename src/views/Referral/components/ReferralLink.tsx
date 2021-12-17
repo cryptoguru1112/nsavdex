@@ -13,10 +13,10 @@ const ReferralLink = () => {
     const handleClick = (description = "") => {
         const now = Date.now();
         const randomToast = {
-        id: `id-${now}`,
-        title: `Copied`,
-        description,
-        type: "success",
+            id: `id-${now}`,
+            title: `Copied`,
+            description,
+            type: "success",
         };
 
         setToasts((prevToasts) => [randomToast, ...prevToasts]);
@@ -26,17 +26,17 @@ const ReferralLink = () => {
         setToasts((prevToasts) => prevToasts.filter((prevToast) => prevToast.id !== id));
     };
 
-    
-const StyledLink = styled(Link)`
+
+    const StyledLink = styled(Link)`
 cursor: pointer;
 `
 
-const StyledFooter = styled(CardFooter)`
+    const StyledFooter = styled(CardFooter)`
 
 min-height: 100px;
 `
 
-const StyledButton = styled(Button)`
+    const StyledButton = styled(Button)`
 color: ${(props) => props.theme.colors.primary};
 background-color: transparent;
 border: 2px solid ${(props) => props.theme.colors.primary};
@@ -57,7 +57,7 @@ opacity: 1;
 }
 `
 
-const Container = styled.div`
+    const Container = styled.div`
 display: flex;
 justify-content: space-between;
 `
@@ -66,14 +66,14 @@ justify-content: space-between;
         <div>
             <CardHeader>
                 <Container>
-                        <Heading color="success" scale="lg">Your Referral Link</Heading>
-                        <CopyToClipboard text={`https://polylime.finance/?ref=${rot13(account)}`} onCopy={()=> {handleClick()}}>
-                        <Button variant="primary" mt="8px">Copy</Button>
+                    <Heading color="secondary" scale="lg">Your Referral Link</Heading>
+                    <CopyToClipboard text={`https://polylime.finance/?ref=${rot13(account)}`} onCopy={() => { handleClick() }}>
+                        <Button variant="secondary" mt="8px">Copy</Button>
                     </CopyToClipboard>
                 </Container>
             </CardHeader>
             <StyledFooter >
-                <StyledLink style={{"margin":"auto", wordBreak: "break-all"}}>{`https://polylime.finance/?ref=${rot13(account)}`}</StyledLink>
+                <StyledLink style={{ "margin": "auto", wordBreak: "break-all" }}>{`https://polylime.finance/?ref=${rot13(account)}`}</StyledLink>
             </StyledFooter>
             <ToastContainer toasts={toasts} onRemove={handleRemove} />
         </div>
