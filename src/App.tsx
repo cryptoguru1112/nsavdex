@@ -30,6 +30,7 @@ import {
 } from './views/AddLiquidity/redirects'
 import RedirectOldRemoveLiquidityPathStructure from './views/RemoveLiquidity/redirects'
 import { RedirectPathToSwapOnly, RedirectToSwap } from './views/Swap/redirects'
+import Privacy from './views/Privacy'
 
 // Route-based code splitting
 // Only pool is included in the main bundle because of it's the most visited page
@@ -91,6 +92,10 @@ const App: React.FC = () => {
             </Route>
             <Route path="/referral">
               <Referral />
+            </Route>
+
+            <Route path="/privacy">
+              <Privacy />
             </Route>
 
             {/* Using this format because these components use routes injected props. We need to rework them with hooks */}
