@@ -26,10 +26,7 @@ const MultiplierTag = styled(Tag)`
 `
 
 const CardHeading: React.FC<ExpandableSectionProps> = ({ lpLabel, multiplier, isCommunityFarm, token, quoteToken, isTokenOnly }) => {
-  let image = `/images/tokens/${token.address[56]}.svg`
-  if(isTokenOnly){
-    image = `/images/tokens/${token.address[56]}.png`
-  }
+  const image = `/images/tokens/${token.address}.svg`
   return (
     <Wrapper justifyContent="space-between" alignItems="center" mb="12px">
       {

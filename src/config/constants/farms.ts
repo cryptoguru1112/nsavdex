@@ -10,7 +10,7 @@ const farms: SerializedFarmConfig[] = [
     lpSymbol: 'NSBC',
     lpAddresses: {
       97: '',
-      56: '0x78e8D9dA5a810D0F39a013640a6911a045cDaF30',
+      56: '0x3e8860fED09E7373388f1A3CE90E8eb06Fcdd2CC',
     },
     token: serializedTokens.nsbc,
     quoteToken: serializedTokens.busd,
@@ -20,7 +20,7 @@ const farms: SerializedFarmConfig[] = [
     lpSymbol: 'NSBC-BNB',
     lpAddresses: {
       97: '',
-      56: '0x7eE01e202c1CCfc7E9cc66f28EabA3Eeac788C9E',
+      56: '0xA1cCc4372Ef0aEe626b7Db6128d017314C6988c1',
     },
     token: serializedTokens.nsbc,
     quoteToken: serializedTokens.wbnb,
@@ -50,7 +50,7 @@ const farms: SerializedFarmConfig[] = [
     lpSymbol: 'NSBC-USDT',
     lpAddresses: {
       97: '',
-      56: '0xd2fe62C0A3b606d50ec89C52d3Ee89e221fB1094',
+      56: '0x536650931a583D436ADE3869867A9Fd05E0407a6',
     },
     token: serializedTokens.nsbc,
     quoteToken: serializedTokens.usdt,
@@ -60,7 +60,7 @@ const farms: SerializedFarmConfig[] = [
     lpSymbol: 'NSBC-BTCB',
     lpAddresses: {
       97: '',
-      56: '0x3471b01deEcCB169dA23B4E9d9527738488dBABE',
+      56: '0xE8DaBFC569D61cbf567755dDAd0CE6e780E4e81a',
     },
     token: serializedTokens.nsbc,
     quoteToken: serializedTokens.btcb,
@@ -70,7 +70,7 @@ const farms: SerializedFarmConfig[] = [
     lpSymbol: 'NSBC-ETH',
     lpAddresses: {
       97: '',
-      56: '0x3471b01deEcCB169dA23B4E9d9527738488dBABE',
+      56: '0x744Dec5762845DF19f99a346d0F8264b9288A228',
     },
     token: serializedTokens.nsbc,
     quoteToken: serializedTokens.eth,
@@ -81,7 +81,7 @@ const farms: SerializedFarmConfig[] = [
     lpSymbol: 'WBNB',
     lpAddresses: {
       97: '',
-      56: '0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16',
+      56: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
     },
     token: serializedTokens.wbnb,
     quoteToken: serializedTokens.busd,
@@ -92,7 +92,7 @@ const farms: SerializedFarmConfig[] = [
     lpSymbol: 'BTCB',
     lpAddresses: {
       97: '',
-      56: '0xF45cd219aEF8618A92BAa7aD848364a158a24F33',
+      56: '0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c',
     },
     token: serializedTokens.btcb,
     quoteToken: serializedTokens.busd,
@@ -114,7 +114,7 @@ const farms: SerializedFarmConfig[] = [
     lpSymbol: 'ETH',
     lpAddresses: {
       97: '',
-      56: '0x7213a321F1855CF1779f42c0CD85d3D95291D34C',
+      56: '0x2170Ed0880ac9A755fd29B2688956BD959F933F8',
     },
     token: serializedTokens.eth,
     quoteToken: serializedTokens.busd,
@@ -125,7 +125,7 @@ const farms: SerializedFarmConfig[] = [
     lpSymbol: 'USDT',
     lpAddresses: {
       97: '',
-      56: '0x7EFaEf62fDdCCa950418312c6C91Aef321375A00',
+      56: '0x55d398326f99059fF775485246999027B3197955',
     },
     token: serializedTokens.usdt,
     quoteToken: serializedTokens.busd,
@@ -136,7 +136,7 @@ const farms: SerializedFarmConfig[] = [
     lpSymbol: 'FIL',
     lpAddresses: {
       97: '',
-      56: '0xa526D6eB986104b44baDB28dc4b30148a56DC1b6',
+      56: '0x0D8Ce2A99Bb6e3B7Db580eD848240e4a0F9aE153',
     },
     token: serializedTokens.fil,
     quoteToken: serializedTokens.busd,
@@ -147,7 +147,7 @@ const farms: SerializedFarmConfig[] = [
     lpSymbol: 'DOT',
     lpAddresses: {
       97: '',
-      56: '0x9fDaaB9312084298d210B8789629D3054230e998',
+      56: '0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402',
     },
     token: serializedTokens.dot,
     quoteToken: serializedTokens.busd,
@@ -158,7 +158,7 @@ const farms: SerializedFarmConfig[] = [
     lpSymbol: 'ADA',
     lpAddresses: {
       97: '',
-      56: '0x1E249DF2F58cBef7EAc2b0EE35964ED8311D5623',
+      56: '0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47',
     },
     token: serializedTokens.ada,
     quoteToken: serializedTokens.busd,

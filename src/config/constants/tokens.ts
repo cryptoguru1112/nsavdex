@@ -15,7 +15,7 @@ interface SerializedTokenList {
 export const mainnetTokens = {
   nsbc: new Token(
     MAINNET,
-    '0x4837eB79E05C3aC845C010060C488992d1f1AcE0',
+    '0x3e8860fED09E7373388f1A3CE90E8eb06Fcdd2CC',
     18,
     'NSBC',
     'NSBC Token',

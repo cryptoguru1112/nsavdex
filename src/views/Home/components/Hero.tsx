@@ -41,7 +41,7 @@ const BgWrapper = styled.div`
   height: 100%;
   bottom: 0px;
   left: 0px;
-  background-image: url("/images/home/lunar-bunny/underimage.jpg");
+  background-image: url("/images/home/lunar-bunny/underimage.gif");
   background-size: cover;
 `
 

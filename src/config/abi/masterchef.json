@@ -15,6 +15,11 @@
         "internalType": "address",
         "name": "_feeAddress",
         "type": "address"
+      },
+      {
+        "internalType": "contract IReferral",
+        "name": "_referral",
+        "type": "address"
       }
     ],
     "stateMutability": "nonpayable",
@@ -101,6 +106,31 @@
       {
         "indexed": true,
         "internalType": "address",
+        "name": "referrer",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "commissionAmount",
+        "type": "uint256"
+      }
+    ],
+    "name": "ReferralCommissionPaid",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
         "name": "newAddress",
         "type": "address"
       }
@@ -125,6 +155,19 @@
       }
     ],
     "name": "SetFeeAddress",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "uint256",
+        "name": "referralCommissionRate",
+        "type": "uint256"
+      }
+    ],
+    "name": "SetReferralCommissionRate",
     "type": "event"
   },
   {
@@ -242,6 +285,19 @@
   },
   {
     "inputs": [],
+    "name": "MAXIMUM_REFERRAL_COMMISSION_RATE",
+    "outputs": [
+      {
+        "internalType": "uint16",
+        "name": "",
+        "type": "uint16"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
     "name": "NSBC_PER_BLOCK",
     "outputs": [
       {
@@ -287,6 +343,11 @@
         "internalType": "uint256",
         "name": "_amount",
         "type": "uint256"
+      },
+      {
+        "internalType": "address",
+        "name": "_referrer",
+        "type": "address"
       }
     ],
     "name": "deposit",
@@ -479,6 +540,32 @@
   },
   {
     "inputs": [],
+    "name": "referral",
+    "outputs": [
+      {
+        "internalType": "contract IReferral",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "referralCommissionRate",
+    "outputs": [
+      {
+        "internalType": "uint16",
+        "name": "",
+        "type": "uint16"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
     "name": "renounceOwnership",
     "outputs": [],
     "stateMutability": "nonpayable",
@@ -516,6 +603,19 @@
       }
     ],
     "name": "setFeeAddress",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint16",
+        "name": "_referralCommissionRate",
+        "type": "uint16"
+      }
+    ],
+    "name": "setReferralCommissionRate",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
