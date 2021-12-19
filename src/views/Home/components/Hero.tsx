@@ -151,7 +151,7 @@ const Hero = () => {
         >
          <StyledCard>
              <Heading scale="xl" fontSize='24px'>{t('Access unlimited DeFi markets.')}</Heading>
-             <Text fontSize='18px'>{t('Trade any crypto asset pn the first fast, cross-chain, low, fee, secure, and fully decentralized derivatives exchange protocal')}</Text>
+             <Text fontSize='18px'>{t('Trade any crypto asset on the first fast, cross-chain, low, fee, secure, and fully decentralized derivatives exchange protocal')}</Text>
          </StyledCard>
          <StyledCard style={{ color: "#000", background: "#fff"}}>
              <Heading scale="xl" fontSize='24px' color='#000'>{t('1 Second Finality')}</Heading>
