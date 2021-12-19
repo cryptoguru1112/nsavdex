@@ -177,7 +177,9 @@ export const useLpTokenPrice = (symbol: string) => {
 
 export const usePriceCakeBusd = (): BigNumber => {
   const cakeBnbFarm = useFarmFromPid(1)
-  const cakeBusdFarm = useFarmFromPid(6)
+  const cakeBusdFarm = useFarmFromPid(19)
+  const priceCakeBusd = cakeBnbFarm? cakeBnbFarm.tokenPriceVsQuote.times(cakeBusdFarm.tokenPriceVsQuote) : BIG_ZERO
+  console.log(priceCakeBusd.toNumber())  
   
-  return cakeBnbFarm? cakeBnbFarm.tokenPriceVsQuote.times(cakeBusdFarm.tokenPriceVsQuote) : BIG_ZERO
+  return priceCakeBusd
 }
