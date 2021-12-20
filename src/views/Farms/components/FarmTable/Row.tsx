@@ -53,6 +53,7 @@ const CellInner = styled.div`
 const StyledTr = styled.tr`
   cursor: pointer;
   border-bottom: 2px solid ${({ theme }) => theme.colors.cardBorder};
+  background-color: #113356;
 `
 
 const EarnedMobileCell = styled.td`
@@ -174,7 +175,7 @@ const Row: React.FunctionComponent<RowPropsWithLoading> = (props) => {
     <>
       {handleRenderRow()}
       {shouldRenderChild && (
-        <tr>
+        <tr style={{backgroundColor:"#141d3c"}}>
           <td colSpan={6}>
             <ActionPanel {...props} expanded={actionPanelExpanded} />
           </td>

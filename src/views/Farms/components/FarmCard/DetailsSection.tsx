@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTranslation } from 'contexts/Localization'
 import styled from 'styled-components'
-import { Text, Flex, LinkExternal, Skeleton } from '@pancakeswap/uikit'
+import { Text, Flex, LinkExternal, Skeleton, Button } from '@pancakeswap/uikit'
 
 export interface ExpandableSectionProps {
   bscScanAddress?: string
@@ -42,7 +42,9 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
         <Text>{t('Total Liquidity')}:</Text>
         {totalValueFormatted ? <Text>{totalValueFormatted}</Text> : <Skeleton width={75} height={25} />}
       </Flex>
-      <StyledLinkExternal href={bscScanAddress}>{t('View on BscScan')}</StyledLinkExternal>
+      <Button variant='primary' marginTop="20px" style={{boxShadow:  '0px 4px 0px 0px #010715'}}>
+        <StyledLinkExternal href={bscScanAddress} color='#000'>{t('View on BscScan')}</StyledLinkExternal>
+      </Button>      
       {/* <StyledLinkExternal href={infoAddress}>{t('See Pair Info')}</StyledLinkExternal> */}
     </Wrapper>
   )

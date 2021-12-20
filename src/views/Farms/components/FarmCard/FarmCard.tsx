@@ -71,7 +71,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, displayApr, removed, cakePric
   })
   let addLiquidityUrl = `${BASE_ADD_LIQUIDITY_URL}/${liquidityUrlPathParts}`
   if(farm.isTokenOnly){
-    addLiquidityUrl = `${BASE_URL}/swap?outputCurrency=${farm.token.address[56]}`
+    addLiquidityUrl = `${BASE_URL}/swap?outputCurrency=${farm.token.address}`
   }
   const lpAddress = getAddress(farm.lpAddresses)
   const isPromotedFarm = farm.token.symbol === 'NSBC'
