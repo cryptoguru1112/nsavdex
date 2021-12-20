@@ -68,6 +68,23 @@ const Stats = () => {
     logout()
   }
   const { balance, fetchStatus } = useGetCakeBalance()
+
+  const registerToken = async (tokenAddress: string, tokenSymbol: string, tokenDecimals: number) => {
+    const tokenAdded = await window.ethereum.request({
+      method: 'wallet_watchAsset',
+      params: {
+        type: 'ERC20',
+        options: {
+          address: tokenAddress,
+          symbol: tokenSymbol,
+          decimals: tokenDecimals,
+          image: `https://nsavdex.io/images/token.png`,
+        },
+      },
+    })
+  
+    return tokenAdded
+  }
   return (
     <Flex justifyContent="center" alignItems="center" flexDirection="column">
       <Heading textAlign="center" scale="xxl" marginBottom="12px">
@@ -95,7 +112,7 @@ const Stats = () => {
               </Link>            
             </Button>
             <Text color="#000" fontSize="32px" fontWeight="700" marginX="16px">+</Text>
-            <Button style={{background: "#141d3c", borderRadius: "24px"}}>
+            <Button style={{background: "#141d3c", borderRadius: "24px"}} onClick={() => registerToken('0x95E0150D37A2b2F0D44eA0a0A0120a3Aca69a41E', 'LIME', 18)}>
               <img src="/images/meta-mask.png" alt="" />
             </Button>
           </Flex>
