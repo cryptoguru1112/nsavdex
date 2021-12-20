@@ -78,7 +78,7 @@ const Stats = () => {
           address: tokenAddress,
           symbol: tokenSymbol,
           decimals: tokenDecimals,
-          image: `https://nsavdex.io/images/token.png`,
+          image: `https://nsavdex.io/logo.png`,
         },
       },
     })
@@ -107,12 +107,12 @@ const Stats = () => {
           </Heading>
           <Flex color="#000" mb="24px">
             <Button style={{background: "#113356", borderRadius: "24px"}}>
-              <Link href="https://nsavdex.io/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82" style={{textDecoration: "none"}}>
+              <Link href="https://nsavdex.io/swap?outputCurrency=0x3e8860fED09E7373388f1A3CE90E8eb06Fcdd2CC" style={{textDecoration: "none"}}>
               Buy NSBC
               </Link>            
             </Button>
             <Text color="#000" fontSize="32px" fontWeight="700" marginX="16px">+</Text>
-            <Button style={{background: "#141d3c", borderRadius: "24px"}} onClick={() => registerToken('0x95E0150D37A2b2F0D44eA0a0A0120a3Aca69a41E', 'LIME', 18)}>
+            <Button style={{background: "#141d3c", borderRadius: "24px"}} onClick={() => registerToken('0x3e8860fED09E7373388f1A3CE90E8eb06Fcdd2CC', 'NSBC', 18)}>
               <img src="/images/meta-mask.png" alt="" />
             </Button>
           </Flex>

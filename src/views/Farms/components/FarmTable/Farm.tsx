@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { useFarmUser } from 'state/farms/hooks'
 import { useTranslation } from 'contexts/Localization'
-import { Text } from '@pancakeswap/uikit'
+import { Text, Image } from '@pancakeswap/uikit'
 import { Token } from '@pancakeswap/sdk'
 import { getBalanceNumber } from 'utils/formatBalance'
 import { TokenPairImage } from 'components/TokenImage'
@@ -12,6 +12,10 @@ export interface FarmProps {
   pid: number
   token: Token
   quoteToken: Token
+}
+
+interface FarmProps1 extends FarmProps {
+  isTokenOnly: boolean
 }
 
 const Container = styled.div`
@@ -33,7 +37,7 @@ const TokenWrapper = styled.div`
   }
 `
 
-const Farm: React.FunctionComponent<FarmProps> = ({ token, quoteToken, label, pid }) => {
+const Farm: React.FunctionComponent<FarmProps1> = ({ token, quoteToken, label, pid, isTokenOnly }) => {
   const { stakedBalance } = useFarmUser(pid)
   const { t } = useTranslation()
   const rawStakedBalance = getBalanceNumber(stakedBalance)
@@ -49,11 +53,15 @@ const Farm: React.FunctionComponent<FarmProps> = ({ token, quoteToken, label, pi
 
     return null
   }
-
+  const image = `/images/tokens/${token.address}.svg`
   return (
     <Container>
       <TokenWrapper>
-        <TokenPairImage variant="inverted" primaryToken={token} secondaryToken={quoteToken} width={40} height={40} />
+      {
+        isTokenOnly ?
+        <Image src={image} width={64} height={64} alt="Token Image" /> : 
+        <TokenPairImage variant="inverted" primaryToken={token} secondaryToken={quoteToken} width={64} height={64} />
+      }
       </TokenWrapper>
       <div>
         {handleRenderFarming()}

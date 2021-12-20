@@ -68,8 +68,8 @@ const CryptoSection = () => {
 
   return (
     <StyledSection>
-      <Heading scale="xxl" marginBottom="24px">{t('Add Liquidity Minning')}</Heading>
-      <Heading scale="md">New Currency pair to Liquidity Minning</Heading>
+      <Heading scale="xxl" marginBottom="24px">{t('Add Liquidity Mining')}</Heading>
+      <Heading scale="md">New Currency pair to Liquidity Mining</Heading>
       <Grid>
         <StyledFlex flexDirection="initial">
           <StyledCoin>

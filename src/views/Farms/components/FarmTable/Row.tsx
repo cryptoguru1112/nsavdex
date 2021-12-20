@@ -88,7 +88,7 @@ const Row: React.FunctionComponent<RowPropsWithLoading> = (props) => {
   const isSmallerScreen = !isDesktop
   const tableSchema = isSmallerScreen ? MobileColumnSchema : DesktopColumnSchema
   const columnNames = tableSchema.map((column) => column.name)
-
+  const isTokenOnly = details.isTokenOnly
   const handleRenderRow = () => {
     if (!isMobile) {
       return (
@@ -142,7 +142,7 @@ const Row: React.FunctionComponent<RowPropsWithLoading> = (props) => {
           <tr>
             <FarmMobileCell>
               <CellLayout>
-                <Farm {...props.farm} />
+                <Farm {...props.farm} isTokenOnly={isTokenOnly}/>
               </CellLayout>
             </FarmMobileCell>
           </tr>

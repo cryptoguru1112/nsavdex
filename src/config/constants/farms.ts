@@ -323,6 +323,16 @@ const farms: SerializedFarmConfig[] = [
     token: serializedTokens.dai,
     quoteToken: serializedTokens.usdt,
   },
+  {
+    pid: 31,
+    lpSymbol: 'BTT-USDT',
+    lpAddresses: {
+      97: '',
+      56: '0xa4e97eC8c3cb6C13488492372668d681cc0Db5bD',
+    },
+    token: serializedTokens.btt,
+    quoteToken: serializedTokens.usdt,
+  },
 ]
 
 export default farms
