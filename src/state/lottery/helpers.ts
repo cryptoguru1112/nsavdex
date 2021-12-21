@@ -28,7 +28,7 @@ const processViewLotterySuccessResponse = (response, lotteryId: string): Lottery
     countWinnersPerBracket,
     rewardsBreakdown,
   } = response
-
+  
   const statusKey = Object.keys(LotteryStatus)[status]
   const serializedCakePerBracket = cakePerBracket.map((cakeInBracket) => ethersToSerializedBigNumber(cakeInBracket))
   const serializedCountWinnersPerBracket = countWinnersPerBracket.map((winnersInBracket) =>
@@ -78,6 +78,7 @@ const processViewLotteryErrorResponse = (lotteryId: string): LotteryResponse => 
 export const fetchLottery = async (lotteryId: string): Promise<LotteryResponse> => {
   try {
     const lotteryData = await lotteryContract.viewLottery(lotteryId)
+    console.log(lotteryData)
     return processViewLotterySuccessResponse(lotteryData, lotteryId)
   } catch (error) {
     return processViewLotteryErrorResponse(lotteryId)

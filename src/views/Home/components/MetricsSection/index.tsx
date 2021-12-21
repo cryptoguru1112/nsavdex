@@ -91,7 +91,7 @@ const Stats = () => {
         {t('NSBC Finance')}
       </Heading>
       <Heading textAlign="center" scale="md" mb="32px">
-        {t('Rewarding Binance Smart Chain Yield Farmers, with NSBC, every day!')}
+        {t('Rewarding Binance Smart Chain Yield Farmers with NSBC, every day!')}
       </Heading>
       {/* <Flex flexWrap="wrap">
         <Text display="inline" textAlign="center" color="textSubtle" mb="20px">

@@ -26,7 +26,7 @@ export const swapSectionData: SalesSectionProps = {
 
 export const earnSectionData: SalesSectionProps = {
   headingText: 'Win a BIG JackPot',
-  bodyText: 'Trade Digital Assets Globally Safely, and Quickly',
+  bodyText: 'Trade Digital Assets Globally, Safely and Quickly',
   reverse: true,
   primaryButton: {
     to: '/farms',
