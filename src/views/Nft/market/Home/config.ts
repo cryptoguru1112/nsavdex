@@ -23,8 +23,8 @@ const config = [
   {
     title: 'What are the fees?',
     description: [
-      '100% of all platform fees taken by PancakeSwap from sales are used to buy back and BURN CAKE tokens in our weekly CAKE burns.',
-      'Platform fees: 2% is subtracted from NFT sales on the market. Subject to change.Collection fees: Additional fees may be taken by collection creators, once those collections are live. These will not contribute to the CAKE burns.',
+      '100% of all platform fees taken by PancakeSwap from sales are used to buy back and BURN NSBC tokens in our weekly NSBC burns.',
+      'Platform fees: 2% is subtracted from NFT sales on the market. Subject to change.Collection fees: Additional fees may be taken by collection creators, once those collections are live. These will not contribute to the NSBC burns.',
     ],
   },
 ]

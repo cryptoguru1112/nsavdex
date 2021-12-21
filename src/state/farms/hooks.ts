@@ -105,7 +105,7 @@ export const useTotalValue = (): [BigNumber,  BigNumber]=> {
 
 /**
  * Fetches the "core" farm data used globally
- * 251 = CAKE-BNB LP
+ * 251 = NSBC-BNB LP
  * 252 = BUSD-BNB LP
  */
 export const usePollCoreFarmData = () => {

@@ -51,11 +51,11 @@ const FarmsPoolsRow = () => {
 
   const getPoolText = (pool: DeserializedPool) => {
     if (pool.isAutoVault) {
-      return t('Auto CAKE')
+      return t('Auto NSBC')
     }
 
     if (pool.sousId === 0) {
-      return t('Manual CAKE')
+      return t('Manual NSBC')
     }
 
     return t('Stake %stakingSymbol% - Earn %earningSymbol%', {

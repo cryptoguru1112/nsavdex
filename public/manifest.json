@@ -1,7 +1,7 @@
 {
-  "short_name": "PancakeSwap",
-  "name": "PancakeSwap",
-  "description": "Farm CAKE with Pancake LP Tokens",
+  "short_name": "Nsavdex",
+  "name": "Nsavdex",
+  "description": "Farm NSBC with Nsavdex LP Tokens",
   "homepage_url": "https://nsavdex.io",
   "start_url": ".",
   "display": "standalone",
