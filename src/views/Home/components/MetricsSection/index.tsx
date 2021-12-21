@@ -146,7 +146,7 @@ const Stats = () => {
               {t('Disconnect Wallet')}
             </Button> : 
           <UnlockButton style={{background: "#113356", borderRadius: "24px", color: "#fff", width: "100%"}}/>
-          }            
+          }
           </Flex>          
         </StyledCard>
         <StyledCard>

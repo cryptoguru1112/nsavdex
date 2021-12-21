@@ -1,10 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Flex, Heading, Text, Link } from '@pancakeswap/uikit'
+import { Flex, Heading, Text, Link, Button } from '@pancakeswap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import Container from 'components/Layout/Container'
 import { useWeb3React } from '@web3-react/core'
+import useAuth from 'hooks/useAuth'
+import UnlockButton from 'components/UnlockButton'
 import SunburstSvg from './SunburstSvg'
 import CompositeImage from './CompositeImage'
 
@@ -81,9 +83,14 @@ const bottomRightImage = {
   ],
 }
 
+
 const Footer = () => {
   const { t } = useTranslation()
   const { account } = useWeb3React()
+  const { logout } = useAuth()
+  const handleLogout = () => {
+    logout()
+  }
 
   return (
     <>
@@ -102,8 +109,17 @@ const Footer = () => {
         <Text mb="24px" bold color="white">
           {t('No registration needed.')}
         </Text>
+        <Flex>
+          {account ?
+            <Button variant="secondary" width="100%" onClick={handleLogout} color="#fff" style={{ background: "#113356" }}>
+              {t('Disconnect Wallet')}
+            </Button> :
+            <UnlockButton style={{ background: "#113356", borderRadius: "24px", color: "#fff", width: "100%" }} />
+          }
 
-        {!account && <ConnectWalletButton mt="24px" height="42px"/>}
+        </Flex>
+
+
       </Wrapper>
     </>
   )

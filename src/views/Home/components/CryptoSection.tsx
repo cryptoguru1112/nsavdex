@@ -41,8 +41,6 @@ const Grid = styled.div`
   ${({ theme }) => theme.mediaQueries.md} {
     grid-gap: 16px;
     grid-template-columns: repeat(2, auto);
-    margin-left: 120px;
-    margin-right: 120px;
   }
 `
 
