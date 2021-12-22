@@ -7,15 +7,11 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     items: [
       {
         label: t('Contact'),
-        href: '/',
-      },
-      {
-        label: t('Blog'),
-        href: '/',
+        href: 'support@NSAVDEX.io',
       },
       {
         label: t('Community'),
-        href: '/',
+        href: 'https://t.me/nsavdex',
       },
       {
         label: t('NSBC token'),
@@ -26,14 +22,6 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
   {
     label: t('Help'),
     items: [
-      {
-        label: t('Customer Support'),
-        href: '/',
-      },
-      {
-        label: t('Guides & FAQ'),
-        href: '/',
-      },
       {
         label: t('Terms & Conditions'),
         href: '/termcondition',
@@ -53,7 +41,7 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/BlockChainSuperDev',
+        href: 'https://github.com/BlockChainSuperDev/NSAVDEX.git',
       },
       {
         label: t('Audits'),

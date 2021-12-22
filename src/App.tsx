@@ -83,7 +83,7 @@ const App: React.FC = () => {
             <Route path="/pools">
               <Farms tokenMode/>
             </Route>
-            <Route path="/lottery">
+            {/* <Route path="/lottery">
               <Lottery />
             </Route>
             <Route exact path="/prediction">
@@ -91,7 +91,7 @@ const App: React.FC = () => {
             </Route>
             <Route path="/prediction/leaderboard">
               <PredictionsLeaderboard />
-            </Route>
+            </Route> */}
             <Route path="/referral">
               <Referral />
             </Route>
