@@ -7,15 +7,11 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     items: [
       {
         label: t('Contact'),
-        href: 'support@NSAVDEX.io',
+        href: 'mailto:support@NSAVDEX.io?subject=nsavdex',
       },
       {
         label: t('Community'),
         href: 'https://t.me/nsavdex',
-      },
-      {
-        label: t('NSBC token'),
-        href: 'https://bscscan.com/address/0x4837eB79E05C3aC845C010060C488992d1f1AcE0',
       },
     ],
   },
