@@ -155,11 +155,11 @@ const Hero = () => {
          </StyledCard>
          <StyledCard style={{ color: "#000", background: "#fff"}}>
              <Heading scale="xl" fontSize='24px' color='#000'>{t('1 Second Finality')}</Heading>
-             <Text fontSize='18px' color='#000'>{t('Platform is a high performance blockchain with 1 second finality, execution environment and based off Tendermint')}</Text>
+             <Text fontSize='18px' color='#000'>{t('Platform is a high performance blockchain with 1 second finality, execution environment')}</Text>
          </StyledCard>
          <StyledCard>
              <Heading scale="xl" fontSize='24px'>{t('50% Off Transaction fee')}</Heading>
-             <Text fontSize='18px'>{t('Until March 31, 2022 Low Fees and GAS Fee Refund')}</Text>
+             <Text fontSize='18px'>{t('Until March 31, 2022 Low Fees')}</Text>
          </StyledCard>
         </Flex>
       </Grid>

@@ -17,20 +17,19 @@ const processViewLotterySuccessResponse = (response, lotteryId: string): Lottery
     status,
     startTime,
     endTime,
-    priceTicketInCake,
+    priceTicketInNsbc,
     discountDivisor,
     treasuryFee,
     firstTicketId,
     lastTicketId,
-    amountCollectedInCake,
+    amountCollectedInNsbc,
     finalNumber,
-    cakePerBracket,
+    nsbcPerBracket,
     countWinnersPerBracket,
     rewardsBreakdown,
   } = response
-  
   const statusKey = Object.keys(LotteryStatus)[status]
-  const serializedCakePerBracket = cakePerBracket.map((cakeInBracket) => ethersToSerializedBigNumber(cakeInBracket))
+  const serializednsbcPerBracket = nsbcPerBracket.map((cakeInBracket) => ethersToSerializedBigNumber(cakeInBracket))
   const serializedCountWinnersPerBracket = countWinnersPerBracket.map((winnersInBracket) =>
     ethersToSerializedBigNumber(winnersInBracket),
   )
@@ -42,14 +41,14 @@ const processViewLotterySuccessResponse = (response, lotteryId: string): Lottery
     status: LotteryStatus[statusKey],
     startTime: startTime?.toString(),
     endTime: endTime?.toString(),
-    priceTicketInCake: ethersToSerializedBigNumber(priceTicketInCake),
+    priceTicketInNsbc: ethersToSerializedBigNumber(priceTicketInNsbc),
     discountDivisor: discountDivisor?.toString(),
     treasuryFee: treasuryFee?.toString(),
     firstTicketId: firstTicketId?.toString(),
     lastTicketId: lastTicketId?.toString(),
-    amountCollectedInCake: ethersToSerializedBigNumber(amountCollectedInCake),
+    amountCollectedInNsbc: ethersToSerializedBigNumber(amountCollectedInNsbc),
     finalNumber,
-    cakePerBracket: serializedCakePerBracket,
+    nsbcPerBracket: serializednsbcPerBracket,
     countWinnersPerBracket: serializedCountWinnersPerBracket,
     rewardsBreakdown: serializedRewardsBreakdown,
   }
@@ -62,14 +61,14 @@ const processViewLotteryErrorResponse = (lotteryId: string): LotteryResponse => 
     status: LotteryStatus.PENDING,
     startTime: '',
     endTime: '',
-    priceTicketInCake: '',
+    priceTicketInNsbc: '',
     discountDivisor: '',
     treasuryFee: '',
     firstTicketId: '',
     lastTicketId: '',
-    amountCollectedInCake: '',
+    amountCollectedInNsbc: '',
     finalNumber: null,
-    cakePerBracket: [],
+    nsbcPerBracket: [],
     countWinnersPerBracket: [],
     rewardsBreakdown: [],
   }
@@ -92,8 +91,10 @@ export const fetchMultipleLotteries = async (lotteryIds: string[]): Promise<Lott
   }))
   try {
     const multicallRes = await multicallv2(lotteryV2Abi, calls, { requireSuccess: false })
-    const processedResponses = multicallRes.map((res, index) =>
+
+    const processedResponses = multicallRes.map((res, index) => 
       processViewLotterySuccessResponse(res[0], lotteryIds[index]),
+    
     )
     return processedResponses
   } catch (error) {
@@ -129,8 +130,15 @@ export const getRoundIdsArray = (currentLotteryId: string): string[] => {
   const currentIdAsInt = parseInt(currentLotteryId, 10)
   const roundIds = []
   for (let i = 0; i < NUM_ROUNDS_TO_FETCH_FROM_NODES; i++) {
-    roundIds.push(currentIdAsInt - i)
+    if(currentIdAsInt - i === -1){
+      roundIds.push(currentIdAsInt - i + 1)
+
+    }
+    else{
+      roundIds.push(currentIdAsInt - i)
+    }
   }
+
   return roundIds.map((roundId) => roundId.toString())
 }
 
@@ -138,22 +146,22 @@ export const useProcessLotteryResponse = (
   lotteryData: LotteryResponse & { userTickets?: LotteryRoundUserTickets },
 ): LotteryRound => {
   const {
-    priceTicketInCake: priceTicketInCakeAsString,
+    priceTicketInNsbc: priceTicketInNsbcAsString,
     discountDivisor: discountDivisorAsString,
-    amountCollectedInCake: amountCollectedInCakeAsString,
+    amountCollectedInNsbc: amountCollectedInNsbcAsString,
   } = lotteryData
 
   const discountDivisor = useMemo(() => {
     return new BigNumber(discountDivisorAsString)
   }, [discountDivisorAsString])
 
-  const priceTicketInCake = useMemo(() => {
-    return new BigNumber(priceTicketInCakeAsString)
-  }, [priceTicketInCakeAsString])
+  const priceTicketInNsbc = useMemo(() => {
+    return new BigNumber(priceTicketInNsbcAsString)
+  }, [priceTicketInNsbcAsString])
 
-  const amountCollectedInCake = useMemo(() => {
-    return new BigNumber(amountCollectedInCakeAsString)
-  }, [amountCollectedInCakeAsString])
+  const amountCollectedInNsbc = useMemo(() => {
+    return new BigNumber(amountCollectedInNsbcAsString)
+  }, [amountCollectedInNsbcAsString])
 
   return {
     isLoading: lotteryData.isLoading,
@@ -162,14 +170,14 @@ export const useProcessLotteryResponse = (
     status: lotteryData.status,
     startTime: lotteryData.startTime,
     endTime: lotteryData.endTime,
-    priceTicketInCake,
+    priceTicketInNsbc,
     discountDivisor,
     treasuryFee: lotteryData.treasuryFee,
     firstTicketId: lotteryData.firstTicketId,
     lastTicketId: lotteryData.lastTicketId,
-    amountCollectedInCake,
+    amountCollectedInNsbc,
     finalNumber: lotteryData.finalNumber,
-    cakePerBracket: lotteryData.cakePerBracket,
+    nsbcPerBracket: lotteryData.nsbcPerBracket,
     countWinnersPerBracket: lotteryData.countWinnersPerBracket,
     rewardsBreakdown: lotteryData.rewardsBreakdown,
   }
