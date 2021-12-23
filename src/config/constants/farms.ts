@@ -20,7 +20,7 @@ const farms: SerializedFarmConfig[] = [
     lpSymbol: 'NSBC-BNB',
     lpAddresses: {
       97: '',
-      56: '0xA1cCc4372Ef0aEe626b7Db6128d017314C6988c1',
+      56: '0x2091AEEA5133f8F2A5EF2600b2aeae0cb4548b13',
     },
     token: serializedTokens.nsbc,
     quoteToken: serializedTokens.wbnb,
@@ -40,7 +40,7 @@ const farms: SerializedFarmConfig[] = [
     lpSymbol: 'NSBC-BUSD',
     lpAddresses: {
       97: '',
-      56: '0x78e8D9dA5a810D0F39a013640a6911a045cDaF30',
+      56: '0x47d023Ad8b22dae56E86878dF9902d0953e2C7D9',
     },
     token: serializedTokens.nsbc,
     quoteToken: serializedTokens.busd,
@@ -50,7 +50,7 @@ const farms: SerializedFarmConfig[] = [
     lpSymbol: 'NSBC-USDT',
     lpAddresses: {
       97: '',
-      56: '0x536650931a583D436ADE3869867A9Fd05E0407a6',
+      56: '0x7355b3Bf602322e5E6e2b90912098405862C52Dc',
     },
     token: serializedTokens.nsbc,
     quoteToken: serializedTokens.usdt,
@@ -60,7 +60,7 @@ const farms: SerializedFarmConfig[] = [
     lpSymbol: 'NSBC-BTCB',
     lpAddresses: {
       97: '',
-      56: '0xE8DaBFC569D61cbf567755dDAd0CE6e780E4e81a',
+      56: '0x3fcF4840f6F075C5adb421f5CFC9B9fA831D9215',
     },
     token: serializedTokens.nsbc,
     quoteToken: serializedTokens.btcb,
@@ -70,7 +70,7 @@ const farms: SerializedFarmConfig[] = [
     lpSymbol: 'NSBC-ETH',
     lpAddresses: {
       97: '',
-      56: '0x744Dec5762845DF19f99a346d0F8264b9288A228',
+      56: '0x0ff53c9A447272CEcCcea298AC8A925AB9BDAaa4',
     },
     token: serializedTokens.nsbc,
     quoteToken: serializedTokens.eth,
@@ -87,7 +87,7 @@ const farms: SerializedFarmConfig[] = [
     quoteToken: serializedTokens.busd,
   },
   {
-    pid: 7,
+    pid: 12,
     isTokenOnly: true,
     lpSymbol: 'BTCB',
     lpAddresses: {
@@ -98,7 +98,7 @@ const farms: SerializedFarmConfig[] = [
     quoteToken: serializedTokens.busd,
   },
   {
-    pid: 8,
+    pid: 7,
     isTokenOnly: true,
     lpSymbol: 'BUSD',
     lpAddresses: {
@@ -109,7 +109,7 @@ const farms: SerializedFarmConfig[] = [
     quoteToken: serializedTokens.busd,
   },
   {
-    pid: 9,
+    pid: 8,
     isTokenOnly: true,
     lpSymbol: 'ETH',
     lpAddresses: {
@@ -120,7 +120,7 @@ const farms: SerializedFarmConfig[] = [
     quoteToken: serializedTokens.busd,
   },
   {
-    pid: 10,
+    pid: 9,
     isTokenOnly: true,
     lpSymbol: 'USDT',
     lpAddresses: {
@@ -131,7 +131,7 @@ const farms: SerializedFarmConfig[] = [
     quoteToken: serializedTokens.busd,
   },
   {
-    pid: 11,
+    pid: 10,
     isTokenOnly: true,
     lpSymbol: 'FIL',
     lpAddresses: {
@@ -142,7 +142,7 @@ const farms: SerializedFarmConfig[] = [
     quoteToken: serializedTokens.busd,
   },
   {
-    pid: 12,
+    pid: 11,
     isTokenOnly: true,
     lpSymbol: 'DOT',
     lpAddresses: {
