@@ -166,7 +166,7 @@ const Stats = () => {
           <Timeline
           dataSource={{
             sourceType: 'profile',
-            screenName: '@nsavdexio'
+            screenName: 'nsavdexio'
           }}
           options={{
             height: '300',
