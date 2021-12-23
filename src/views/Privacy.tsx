@@ -49,82 +49,83 @@ const Privacy: React.FC = () => {
                     </Heading>
                     <Text>
                         We may collect Personal Information about you directly from you and automatically through your use of the Services, as well as from third parties. In this Policy, “Personal Information” means any information relating to an identified or identifiable individual.
+                        <br /><br />
 
                         A. Personal Information You Provide
-
+                        <br /><br />
                         When you use the Services or contact us, as applicable, you may provide us with:
-
+                        <br />
                         Contact information, such as your name, address, email address, passwords, and security data;
-
+                        <br />
                         Financial information, such as your Ethereum network address, cryptocurrency wallet information, transaction history, trading data and associated network fees paid;
-
+                        <br />
                         Transaction information, such as the type of transaction, transaction amount, and timestamp;
-
+                        <br />
                         Online identifiers, such as geo location/tracking details, browser fingerprint, operating system, browser name and version, and/or personal IP addresses;
-
+                        <br />
                         Correspondences such as your feedback, questionnaire and other survey responses, and information you provide to our support teams, including via our help chat;
-
+                        <br />
                         Usage Data, such as user preferences and other data collected via Cookies (defined below) and similar technologies;
-
+                        <br />
                         Contributor information, such as the code, documentation or other information you contribute, the time and date of your contributions, your username and profile information, public repository content, and any related comments and discussions.
-
+                        <br />
                         Applicant information in connection with applying for a career with NSAVDEX.IO, such as your contact information, information in your resume or CV, information from any website you choose to link to (e.g., LinkedIn or Twitter), and any other information you choose to provide.
-
+                        <br />
                         Where required by applicable law, we indicate whether and why you must provide us with your Personal Information, as well as the consequences of failing to do so.
-
+                        <br /><br />
                         B. Personal Information We Collect Automatically
-
+                        <br /><br />
                         When you use our Services, we may automatically collect information about your use of the Services, including via cookies, beacons, invisible tags, and similar technologies (collectively “Cookies”) in your browser and on emails sent to you. This information may include Personal Information, such as your IP address, web browser, device type, and the web pages that you visit just before or just after you use the Services, as well as information about your interactions with the Services, such as the date and time of your visit, and where you have clicked. You can find more information about how we use Cookies in the section How We Use Cookies below.
-
+                        <br /><br />
                         C. Personal Information We Collect from Third Parties
-
+                        <br /><br />
                         Information Required by Law. We may get information about you from other sources as required or permitted by applicable law, including public databases
-
+                        <br />
                         Social media information. If you post on NSAV /  NSAVDEX’s social media pages or post about NSAVDEX on other publicly available services, we may receive social media information about you, such as your profile information and the time, date and content of your posts.
                         </Text>
                         <Heading scale='xl' my="24px">2. How We Use Personal Information</Heading>
 
                         <Text>
                         A. How We Use Personal information
-
+                        <br /><br />
                         We use Personal Information we collect through the Services as necessary for the following purposes:
-
+                        <br />
                         Providing the Services. We use Personal Information to operate, maintain, and provide features of the Services.
-
+                        <br />
                         Communicating with you. We use Personal Information to contact you for administrative and informational purposes, such as to respond to your inquiries, or to inform you about changes to our terms, conditions, and policies, or invitations to join the Services.
-
+                        <br />
                         Marketing. We may use Personal Information to send marketing communications, including promotional and advertising materials that may be useful, relevant, valuable or otherwise of interest relating to products and services offered by us and by third parties we work with, such as app developers. We also may use Personal Information to contact you to answer feedback and surveys, and to improve our marketing and promotional efforts. Generally, you have the ability to opt out of receiving any promotional communications as described below under Your Rights and Choices. Where required under applicable law, we will only send you promotional emails with your opt-in consent.
-
+                        <br />
                         Understanding and improving the Services. We use Personal Information to understand and analyze the usage trends and preferences of our users in order to improve the Services, and to develop new products, services, features, and functionalities.
-
+                        <br />
                         Compliance with regulation. We use Personal Information to comply with financial regulation, including verifying your identity by comparing the personal information you provide against third-party databases and public records. We may use the information we collect to investigate or address claims or disputes relating to use of our Services, or as otherwise allowed by applicable law, or as requested by regulators, government entities, and official inquiries.
-
+                        <br />
                         Safety and Security. We may use your information to help maintain the safety, security, and integrity of you and our Services, including to protect, investigate and deter against fraudulent, unauthorized, or illegal activity; monitor and verify identity or service access, and combat malware and security risks; perform internal operations necessary to provide our Services, including to troubleshoot software bugs and operational problems; and enforce our agreements with third parties, and address violations of our Terms of Use or agreements for other Services.
-
+                        <br />
                         Other business purposes. We use Personal Information for compliance, risk management, and other business purposes, such as audits, security, compliance with applicable laws and regulations, fraud monitoring, and prevention.
-
+                        <br /><br />
                         B. Our Use of European Personal Information
-
-                        If you are located in the European Economic Area, we only process your Personal Information when we have a valid legal basis to do so, including when:
+                        <br /><br />
+                        If you are located in the European Economic Area, we only process your Personal Information when we have a valid legal basis to do so, including when<br />:
 
                         You have consented to the use of your Personal Information, for example to send you marketing communications.
-
+                        <br />
                         We need to use your Personal Information to provide you with the Services, for example to give you access to the Services, to respond to your inquiries, or to register you for an event.
-
+                        <br />
                         We need to use your Personal Information to comply with a legal obligation, for example to comply with a court order.
-
+                        <br />
                         We or a third party have a legitimate interest in using your Personal Information. In particular, we have a legitimate interest in using your Personal to understand and improve our Services, and to monitor and prevent fraud. We only rely on our or a third party’s legitimate interests to process your Personal Information when these interests are not overridden by your rights and interests.
-
+                        <br /><br />
                         C. How We Use Cookies
-
+                        <br /><br />
                         We and third-party service providers may use the following cookies to collect Personal Information:
-
+                        <br />
                         Functional cookies. Some Cookies are strictly necessary to make our Services available to you. For example, to provide login and mailing list signup functionality. We cannot provide you with the Services without this type of cookie.
-
+                        <br />
                         Analytical cookies. We also use Cookies for website analytics purposes in order to operate, maintain, and improve our Services. We may use our own analytics Cookies or use third-party analytics providers to collect and process certain analytics data on our behalf. These providers may also collect information about your use of other websites, apps, and online resources.
-
+                        <br />
                         Third-party content. The Services contain links to websites operated by third parties and contain social media features and other content provided by third parties, such as YouTube videos. These third parties may collect information about you if you visit their websites, or if you visit a website that contains social media features or other content provided by them. This Privacy Policy does not address, and we do not control, what Personal Information these third parties collect. We encourage you to review these third parties’ privacy policies and related privacy settings before using these features.
-
+                        <br />
                         You can find more information about your rights and choices, and how to opt out of the use of certain Cookies in the section Your Rights and Choices below.
 
                         </Text>
@@ -134,15 +135,15 @@ const Privacy: React.FC = () => {
 
                         
                         Except as described in this Policy, we will not disclose your Personal Information collected on the Services to third parties without your consent. We may disclose information to third parties if you consent to us doing so, as well as in the following circumstances:
-
+                        <br />
                         Your social handle and profile information may be publicly available through the use of the Services.
-
+                        <br />
                         To our third-party service providers who provide services such as website hosting data analysis, information technology and related infrastructure provision, customer service, email delivery, auditing, and other services.
-
+                        <br />
                         To a potential or actual acquirer, successor, or assignee as part of any reorganization, merger, sale, joint venture, assignment, transfer or other disposition of all or any portion of our business, assets or stock (including in bankruptcy or similar proceedings).
-
+                        <br />
                         If required to do so by law or in the good faith belief that such action is appropriate: (a) under applicable law, including laws outside your country of residence; (b) to comply with legal process; (c) to respond to requests from public and government authorities, including public and government authorities outside your country of residence; (d) to enforce our Terms of Use; (e) to protect our operations or those of any of our affiliates; (f) to protect our rights, privacy, safety or property, and/or that of our affiliates, you or others; and (g) to allow us to pursue available remedies or limit the damages that we may sustain.
-
+                        <br />
                         We may use and disclose aggregated or otherwise de-identified information for any purpose, unless we are prohibited from doing so under applicable law.
                         </Text>
                         <Heading scale='xl' my="24px">4. Third Party Services</Heading>
@@ -164,67 +165,67 @@ const Privacy: React.FC = () => {
                         <Text>
 
                         You have several rights and choices with regard to our use of your Personal Information. You may, of course, decline to share certain Personal Information with us, in which case we may not be able to provide to you some of the features and functionality of the Services. If you wish to access, amend, or delete any other Personal Information we hold about you, you may contact us using the contact details at the end of this Policy. Please note that while any changes you make will be reflected in active user databases instantly or within a reasonable period of time, we may retain all information you submit for backups, archiving, prevention of fraud and abuse, analytics, satisfaction of legal obligations, or where we otherwise reasonably believe that we have a legitimate reason to do so, as permitted under applicable data protection law. From time to time, we send marketing email messages to our users. If you no longer want to receive such emails from us on a going forward basis, you may opt-out via the “unsubscribe” link provided in each such email or by contacting us using the contact details at the end of this Policy.
-
+                        <br /><br />
                         A. Your European Privacy Rights
-
+                        <br /><br />
                         If you are located in the European Economic Area (“EEA”), you have additional rights described below.
-
+                        <br />
                         You may request access to and receive information about the Personal Information we maintain about you, update and correct inaccuracies in your Personal Information, restrict or object to the processing of your Personal Information, have the information anonymized or deleted, as appropriate, or exercise your right to data portability to easily transfer your Personal Information to another company. In addition, you may also have the right to lodge a complaint with a supervisory authority, including in your country of residence, place of work, or where an incident took place.
-
+                        <br />
                         You may withdraw any consent you previously provided to us regarding the processing of your Personal Information, at any time, and free of charge. We will apply your preferences going forward and this will not affect the lawfulness of the processing before you withdrew your consent.
-
+                        <br />
                         You may exercise these rights by contacting us using the contact details at the end of this Policy. Please note that there are exceptions and limitations to each of these rights, and that while any changes you make will be reflected in active user databases instantly or within a reasonable period of time, we may retain information for backups, archiving, prevention of fraud and abuse, analytics, satisfaction of legal obligations, or where we otherwise reasonably believe that we have a legitimate reason to do so.
-
+                        <br />
                         We will comply with applicable EEA data protection law when transferring your Personal Information outside of the EEA. We may transfer your Personal Information to countries which have been found to provide adequate protection by the EU Commission (e.g., Canada), use contractual protections for the transfer of Personal Information, or transfer to recipients who have certified to the Privacy Shield or adopted Binding Corporate Rules. For more information about how we transfer Personal Information outside of the EEA, or to obtain a copy of the contractual safeguards we use for such transfers, you may contact us as specified below.
-
+                        <br /><br />
                         B. Your Cookie Choices; Opt-Out Guide
-
+                        <br /><br />
                         Like many companies online, we use services provided by Google and other companies that use tracking technology. These services rely on tracking technologies—such as Cookies—to collect directly from your device information about your browsing activities, your interactions with websites, and the device you are using to connect to the Internet. There are a number of ways to opt out of having your online activity and device data collected through these services, which we have summarized below:
-
+                        <br />
                         Blocking cookies in your browser. Most browsers let you remove or reject cookies, including cookies used for interest-based advertising. To do this, follow the instructions in your browser settings. Many browsers accept cookies by default until you change your settings. For more information about cookies, including how to see what cookies have been set on your device and how to manage and delete them, visit www.allaboutcookies.org.
-
+                        <br />
                         Blocking advertising ID use in your mobile settings. Your mobile device settings may provide functionality to limit use of the advertising ID associated with your mobile device for interest-based advertising purposes.
-
+                        <br />
                         Using privacy plug-ins or browsers. You can block our websites from setting cookies used for interest-based ads by using a browser with privacy features, like Brave, or installing browser plugins like Privacy Badger, Ghostery or uBlock Origin, and configuring them to block third-party cookies/trackers.
-
+                        <br />
                         Platform opt-outs. The following advertising partner offers opt-out features that let you opt-out of use of your information for interest-based advertising — Google: https://adssettings.google.com.
-
+                        <br />
                         Advertising industry opt-out tools. You can also use the opt-out options set forth below to limit use of your information for interest-based advertising by participating companies. Note that because these opt-out mechanisms are specific to the device or browser on which they are exercised, you will need to opt out on every browser and device that you use.
-
+                        <br />
                         Digital Advertising Alliance: http://optout.aboutads.info
-
+                        <br />
                         Network Advertising Initiative: http://optout.networkadvertising.org/
-
+                        <br />
                         Notice to California Residents:
-
+                        <br />
                         We are required by the California Consumer Privacy Act of 2018 (“CCPA”) to provide this CCPA Notice to California residents to explain how we collect, use and share their personal information, and the rights and choices we offer California residents regarding our handling of their personal information.
-
+                        <br />
                         CCPA Scope and Exclusions This CCPA Notice, including the description of our privacy practices and your privacy rights, apply only to California residents whose interactions with us are limited to:
-
+                        <br />
                         visiting our consumer websites; and
-
+                        <br />
                         signing up for email alerts; and This CCPA Notice does not apply to the personal information we collect, use or disclose about:
-
+                        <br />
                         individuals who provide information to us to initiate or complete the process of onboarding to our interface (such as contact details, trading history, and cryptocurrency balances and wallet addresses), which we continue to share as described in this notice; or
-
+                        <br />
                         representatives of businesses that seek to obtain our products or services, or to provide products or services to us.
-
+                        <br />
                         Privacy Practices We do not “sell” the personal information we collect (as such term is defined in the CCPA) for monetary value (and will not sell it without providing a right to opt out). Like many companies, we may use third-party cookies for our advertising purposes. If you would like to learn how you may opt out of our use of Cookies and other tracking technologies, please review the instructions provided in the Your Cookie Choices; Opt-out Guide section of this Policy.
-
+                        <br />
                         Privacy Rights The CCPA grants individuals the following rights:
-
+                        <br />
                         Information. You can request information about how we have collected, used and shared your personal information during the past 12 months. For details about the personal information we have collected over the last 12 months, including the categories of sources, please see the Personal Information We Collect section of this Policy. We collect this information for the business and commercial purposes described in the How We Use Personal Information section of this Policy. We share this information with the categories of third parties described in the How We Share Your Personal Information section of this Policy.
-
+                        <br />
                         Access. You can request a copy of the personal information that we maintain about you.
-
+                        <br />
                         Deletion. You can ask us to delete the personal information that we collected or maintain about you.
-
+                        <br />
                         Please note that the CCPA limits these rights by, for example, prohibiting us from providing certain sensitive information in response to an access request and limiting the circumstances in which we must comply with a deletion request. We will also respond to requests for information and access only to the extent we are able to associate with a reasonable effort the information we maintain with the identifying details you provide in your request. If we deny your request, we will communicate our decision to you. You are entitled to exercise the rights described above free from discrimination.
-
+                        <br />
                         How to Submit a Request To request access to or deletion of personal information to support@NSAVDEX.io
-
+                        <br />
                         Identity Verification The CCPA requires us to verify the identity of the individual submitting a request to access or delete personal information before providing a substantive response to the request. We will ask you to verify your identity when you submit a request.
-
+                        <br />
                         Authorized Agents California residents can empower an “authorized agent” to submit requests on their behalf. We will require the authorized agent to have a written authorization confirming that authority.
                         </Text>
                         <Heading scale='xl' my="24px">7. Use of Services by Minors</Heading>
