@@ -107,12 +107,12 @@ const Stats = () => {
           </Heading>
           <Flex color="#000" mb="24px">
             <Button style={{background: "#113356", borderRadius: "24px"}}>
-              <Link href="https://nsavdex.io/swap?outputCurrency=0x3e8860fED09E7373388f1A3CE90E8eb06Fcdd2CC" style={{textDecoration: "none"}}>
+              <Link href="https://nsavdex.io/swap?outputCurrency=0x64A886C78bDe80cA03B621cE7282f05B180F1FD6" style={{textDecoration: "none"}}>
               Buy NSBC
               </Link>            
             </Button>
             <Text color="#000" fontSize="32px" fontWeight="700" marginX="16px">+</Text>
-            <Button style={{background: "#141d3c", borderRadius: "24px"}} onClick={() => registerToken('0x3e8860fED09E7373388f1A3CE90E8eb06Fcdd2CC', 'NSBC', 18)}>
+            <Button style={{background: "#141d3c", borderRadius: "24px"}} onClick={() => registerToken('0x64A886C78bDe80cA03B621cE7282f05B180F1FD6', 'NSBC', 18)}>
               <img src="/images/meta-mask.png" alt="" />
             </Button>
           </Flex>

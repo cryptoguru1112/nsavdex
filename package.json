@@ -1,5 +1,6 @@
 {
   "name": "pancake-frontend",
+  "homepage": "https://nsavdex.io",
   "version": "0.1.0",
   "private": true,
   "scripts": {

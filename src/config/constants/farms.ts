@@ -10,7 +10,7 @@ const farms: SerializedFarmConfig[] = [
     lpSymbol: 'NSBC',
     lpAddresses: {
       97: '',
-      56: '0x3e8860fED09E7373388f1A3CE90E8eb06Fcdd2CC',
+      56: '0x64A886C78bDe80cA03B621cE7282f05B180F1FD6',
     },
     token: serializedTokens.nsbc,
     quoteToken: serializedTokens.busd,

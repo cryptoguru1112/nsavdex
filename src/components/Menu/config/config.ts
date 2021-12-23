@@ -45,22 +45,23 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
       },
     ],
   },
-  // {
-  //   label: t('Win'),
-  //   href: '/prediction',
-  //   icon: 'Trophy',
-  //   showItemsOnMobile: false,
-  //   items: [
-  //     {
-  //       label: t('Prediction (BETA)'),
-  //       href: '/prediction',
-  //     },
-  //     {
-  //       label: t('Lottery'),
-  //       href: '/lottery',
-  //     },
-  //   ],
-  // },
+  {
+    label: t('Win'),
+    href: '/lottery',
+    icon: 'Trophy',
+    showItemsOnMobile: false,
+    items: [
+      {
+        label: t('Lottery'),
+        href: '/lottery',
+      },
+      // {
+      //   label: t('Prediction (BETA)'),
+      //   href: '/prediction',
+      // },
+      
+    ],
+  },
   {
     label: t('Referral'),
     href: '/referral',
