@@ -393,7 +393,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
       <Page>
         <ControlContainer>
           <ViewControls>
-            <ToggleView viewMode={viewMode} onToggle={(mode: ViewMode) => setViewMode(mode)} />
+            {/* <ToggleView viewMode={viewMode} onToggle={(mode: ViewMode) => setViewMode(mode)} /> */}
             <ToggleWrapper>
               <Toggle
                 id="staked-only-farms"
@@ -406,7 +406,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
             <FarmTabButtons hasStakeInFinishedFarms={stakedInactiveFarms.length > 0} />
           </ViewControls>
           
-          {/* <FilterContainer>
+          <FilterContainer>
             <LabelWrapper>
               <Text textTransform="uppercase">{t('Sort by')}</Text>
               <Select
@@ -439,7 +439,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
               <Text textTransform="uppercase">{t('Search')}</Text>
               <SearchInput onChange={handleChangeQuery} placeholder="Search Farms" />
             </LabelWrapper>
-          </FilterContainer> */}
+          </FilterContainer>
         </ControlContainer>
         {renderContent()}
         {account && !userDataLoaded && stakedOnly && (
